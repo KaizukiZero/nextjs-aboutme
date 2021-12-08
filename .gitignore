@@ -36,5 +36,5 @@ yarn-error.log*
 
 
 # prettier
-.prettier.config
+.prettier.config.js
 .prettierignore
