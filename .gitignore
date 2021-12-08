@@ -11,7 +11,7 @@
 # next.js
 /.next/
 /out/
-.next.config.js
+next.config.js
 
 # production
 /build
@@ -36,5 +36,8 @@ yarn-error.log*
 
 
 # prettier
-.prettier.config
+prettier.config.js
 .prettierignore
+
+# Eslint
+.eslintrc.json

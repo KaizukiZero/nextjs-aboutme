@@ -1,0 +1,42 @@
+.sidemenu {
+    position: fixed;
+    min-width: 30vh;
+    min-height: 100vh;
+    background-color: #26282b;
+    padding: 1rem;
+    color: white;
+}
+.avatar {
+    text-align: center;
+}
+.image {
+    border-radius: 100%;
+}
+
+.profilename {
+    text-align: start;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    margin: 1rem 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.menu a {
+    background-color: #5f85db;
+    border-radius: 2rem;
+    margin: 1rem 0;
+    padding: 0.75rem 0;
+}
+
+.menu a:hover {
+    background-color: #90b8f8;
+    color: black;
+    transition: color 0.5s linear;
+    background: 0.5s linear;
+}
