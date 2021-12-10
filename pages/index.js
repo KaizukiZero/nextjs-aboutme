@@ -5,7 +5,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 export default function Home() {
     return (
         <div className={style.content}>
-            <FontAwesomeIcon icon={faBars} />
+            <FontAwesomeIcon icon={faBars} className={style.togglemenu} />
             <div id="Home" className="">
             
                 <h1>
