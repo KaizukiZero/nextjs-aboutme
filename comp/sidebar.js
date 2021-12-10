@@ -1,15 +1,15 @@
 import Image from 'next/image'
 import profilePic from '../images/pg1.jpg'
 import style from '../styles/Sidebar.module.css'
+
 const sidebar = () => {
     return (
         <div id="sidemenu" className={style.sidemenu}>
             <div id="avatar" className={style.avatar}>
                 <Image
                     src={profilePic}
-                    width={200}
-                    height={200}
-                    className={style.image}
+                    width={250}
+                    height={250}
                     alt="Profile image"
                 />
 
@@ -19,19 +19,19 @@ const sidebar = () => {
                 </div>
             </div>
             <div id="menu" className={style.menu}>
-                <a className={style.Home} href="">
+                <a className={style.Home} href="#Home">
                     Home
                 </a>
-                <a className={style.About} href="">
-                    About
+                <a className={style.About} href="#Aboutme">
+                    About me
                 </a>
-                <a className={style.Education} href="">
+                <a className={style.Education} href="#Education">
                     Education
                 </a>
-                <a className={style.Portfolio} href="">
+                <a className={style.Portfolio} href="#Portfolio">
                     Portfolio
                 </a>
-                <a className={style.Contact} href="">
+                <a className={style.Contact} href="#Contact">
                     Contact
                 </a>
             </div>

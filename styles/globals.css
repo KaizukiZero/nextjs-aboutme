@@ -17,6 +17,12 @@ a {
     box-sizing: border-box;
 }
 
+*::selection{
+    background-color: #26282b;
+    color:cornflowerblue;
+    
+}
+
 ::-webkit-scrollbar {
     width: 2vh;
 }
